@@ -1,0 +1,1 @@
+// adding all the methods added in the player header file

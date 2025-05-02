@@ -1,0 +1,1 @@
+// create shooting class and use 2d array and DMA

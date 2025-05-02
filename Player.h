@@ -1,0 +1,1 @@
+//Adding all infos about the players
