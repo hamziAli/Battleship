@@ -7,7 +7,8 @@
 #include <string>
 using namespace std;
 const int Board_Size = 10;
-const int Ships = 9; // 5(king) , 4(Queen) , 3(Bishop) , 2(2xKnights) , 1(4xPawns)
+const int Ships = 5; // Carrier(5x1),Battleship(4x1),Destroyer(3x1),Submarine(3x1)Patrol(2x1),Boat(1x1)
+
 enum cell_status
 {
     EMPTY,
@@ -37,9 +38,17 @@ public:
 
 class Board
 {
-private:
+public:
     cell_status **grid;
-    vector<Ship> Ship;
+    vector<Ship> Ships;
+    void display(bool showShips = true) const;     // Checks if the ship can be placed at its starting point and direction
+                                                   // Returns false if it's out of bounds or overlaps another ship
+    bool placeShip(const Ship &ship);              // Places the ship on the board if the position is valid
+                                                   // Updates the grid and adds the ship to the ship list
+    bool isValidPlacement(const Ship &ship) const; // Simulates an attack on a specific cell
+                                                   // Marks HIT if ship is present, MISS if empty
+                                                   // Returns true if it's a hit, false otherwise
+    bool attackCell(int row, int col);
 
 public:
     Board();
@@ -47,3 +56,5 @@ public:
 };
 
 #endif
+// Purpose:
+// Declares the core components (classes and types) used in the Battleship game, including the board, ships, and helper structures.
