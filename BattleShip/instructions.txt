@@ -1,0 +1,4 @@
+Instructions:
+
+= To compile use the command g++ main.cpp board.cpp game.cpp player.cpp -o {your file name}
+= To run use ./{your file name}
