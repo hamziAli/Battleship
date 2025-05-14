@@ -1,1 +1,0 @@
-// using dma we will control the shooting and check and balance the grid according to that
