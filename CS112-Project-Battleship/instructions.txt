@@ -1,0 +1,11 @@
+Welcome to BattleShip, recreated by Mohammad Hassaan, 2024302, Hamza Ali, 2024208 and Raja Hamza Sikander, 2024532.
+
+
+Instructions:
+
+= To compile use the command g++ main.cpp board.cpp game.cpp player.cpp -o {your file name} on your terminal while being in the BattleShip/project directory.
+= To run use ./{your file name}
+
+
+Tips:
+For the best playing experience, play on full screen command terminal.
