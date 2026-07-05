@@ -1,36 +1,35 @@
-# Streamlined Gradebook 📊
+# Battleship Game 🚢
 
-A streamlined gradebook application designed for managing student records, course assignments, and progress tracking. This platform simplifies the grading workflow for educators while providing clear performance insights.
+A fully playable, interactive Battleship game featuring an intuitive UI, a smart AI opponent, and strategic gameplay mechanics. Test your tactical skills, hunt down the enemy fleet, and protect your own waters.
 
 ---
 
 ## 🚀 Key Features
 
-* **Student Record Management:** Easily maintain, update, and organize student profiles and enrollment data.
-* **Grade Tracking & Calculation:** Automate weighted grading, final score calculations, and assignment tracking without the spreadsheet headache.
-* **Course Organization:** Structure assignments, quizzes, exams, and projects neatly by course or semester.
-* **Progress Analytics:** Visualize student performance trends and pinpoint who needs extra support with intuitive data insights.
+* **Interactive Game Board & Ship Placement:** Easily place, rotate, and manage your fleet on a clean, responsive grid before heading into battle.
+* **AI Opponent with Strategic Logic:** Play against a computer opponent that adapts its hunting patterns based on successful hits and misses.
+* **Turn-Based Gameplay:** Smooth, classic turn-by-turn mechanics featuring real-time visual feedback for hits, misses, and sunken ships.
+* **Win/Loss Tracking:** Keep score of your victories and defeats to track your tactical improvement over time.
 
 ---
 
 ## 🛠️ Tech Stack (Suggested)
 
-* **Frontend:** React / Vue.js / Tailwind CSS
-* **Backend:** Node.js (Express) / Python (Flask/Django)
-* **Database:** PostgreSQL / MySQL (Ideal for structured grading data)
-* **Deployment:** Vercel / Heroku / Render
+* **Frontend:** HTML5, CSS3 (Flexbox/Grid), JavaScript (Vanilla / React / Vue)
+* **Styling:** Tailwind CSS or custom CSS for the nautical grid aesthetic
+* **State Management:** Local Storage (for win/loss tracking)
 
 ---
 
 ## 📦 Getting Started
 
-Follow these steps to get your local development environment running.
+Get your fleet ready for battle locally in just a few steps.
 
 ### Prerequisites
-* Node.js (v18 or higher)
-* npm, yarn, or pnpm
+* A modern web browser (Chrome, Firefox, Safari, Edge)
+* *Optional:* Node.js (if using a build tool like Vite)
 
-### Installation
+### Quick Start (Vanilla JS)
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/streamlined-gradebook.git](https://github.com/your-username/streamlined-gradebook.git)
+   git clone [https://github.com/your-username/battleship-game.git](https://github.com/your-username/battleship-game.git)
